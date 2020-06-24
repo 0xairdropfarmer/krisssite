@@ -1,6 +1,6 @@
 ---
-keywords: Bold Mage
-slug: bold-mage
+keywords: react router
+slug: react-router
 date: 2020-06-11T14:54:10.962Z
 cover: ../images/placeholder-660x400-344359.png
 title: How to use the useParams hook in React router
@@ -16,6 +16,7 @@ categories:
 description: In this tutorial, we are going to learn about how to use the
   useParams() hook in react router.
 ---
+
 ## useParams() hook
 
 The `useParams()` hook helps us to access the URL parameters from a current route.

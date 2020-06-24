@@ -1,12 +1,12 @@
 const config = {
   // Site info
-  siteTitle: "Gatsby Blog Template", // Site title.
-  siteTitleShort: "GB Template", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Gatsby Blog Template", // Alternative site title for SEO.
+  siteTitle: "Kriss - All about Javascript", // Site title.
+  siteTitleShort: "Kriss.io", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Kriss - All about Javascript", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://gb-template.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "A GatsbyJS Blog Template for blogging purpose.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Javascript,React,React Native,Angular,Vuejs,Nodejs,Deno", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteLang: "en",
   siteFBAppID: "399626517562189", // FB Application ID for using app insights
@@ -33,9 +33,10 @@ const config = {
   homeHeader: "Home",
   // Use for page
   pathPrefixPagination: "/page", // Prefix path for pagination
-  pageNotFoundTitle: "Page Not Found", // 
+  pageNotFoundTitle: "Page Not Found", //
   pageNotFoundBtn: "Back to our site",
-  pageNotFoundContent: "Looks like you've followed a broken link or entered a URL that doesn't exist on this site.",
+  pageNotFoundContent:
+    "Looks like you've followed a broken link or entered a URL that doesn't exist on this site.",
   // Use for tag
   pathPrefixTag: "/tag", // Prefix path for tags
   tagHeader: "Posts tagged as", // use in header of tag-template page
@@ -56,98 +57,66 @@ const config = {
   hasSearch: true,
   // Use for links widget
   sidebarSticky: true,
-  sidebarLinks: [
-    {
-      label: "Complete JavaScript",
-      url: "https://completejavascript.com/"
-    },
-    {
-      label: "Lam Pham Blog",
-      url: "https://phamvanlam.com/"
-    },
-    {
-      label: "Lam Pham Portfolio",
-      url: "http://about.phamvanlam.com/"
-    },
-  ],
+
   // Use for user info
-  userName: "Lam Pham", // Username to display in the author segment.
-  userEmail: "completejavascript.super@gmail.com", // Email used for RSS feed"s author segment
-  userTwitter: "CmpltJavaScript", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "Hanoi, Vietnam", // User location to display in the author segment.
-  userAvatar: "https://www.gravatar.com/avatar/42fd3d526fde1ef76d5002e4ebd303e9.jpg?s=300", // User avatar to display in the author segment.
+  userName: "Krissanawat", // Username to display in the author segment.
+  userEmail: "krissanawat@hey.com", // Email used for RSS feed"s author segment
+  userTwitter: "jstutplus", // Optionally renders "Follow Me" in the UserInfo segment.
+  userLocation: "Chiangmai, Thailand", // User location to display in the author segment.
+  userAvatar:
+    "https://en.gravatar.com/userimage/155811895/09834b18c86688d77a606ab08b38cec3.png?s=300", // User avatar to display in the author segment.
   userDescription:
-    "Software Engineer, Web Developer, JavaScript Lover & Blogger @completejavascript.", // User description to display in the author segment.
+    "Software Engineer, Web Developer, JavaScript Lover & Blogger @jstutplus.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
       label: "Email",
-      url: "mailto:completejavascript.super@gmail.com",
-      iconClassName: "far envelope"
-    },
-    {
-      label: "Website",
-      url: "https://completejavascript.com/",
-      iconClassName: "fas globe"
+      url: "mailto:krissanawat@hey.com",
+      iconClassName: "far envelope",
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/CmpltJavaScript",
-      iconClassName: "fab twitter"
+      url: "https://twitter.com/jstutplus",
+      iconClassName: "fab twitter",
     },
-    { 
-      label: "Facebook", 
-      url: "https://www.facebook.com/completejavascript/", 
-      iconClassName: "fab facebook-f" 
-    },
-    { 
-      label: "Linkedin", 
-      url: "https://www.linkedin.com/in/completejavascript/", 
-      iconClassName: "fab linkedin-in"
+    {
+      label: "Facebook",
+      url: "https://www.facebook.com/groups/reactnativedeveloper/",
+      iconClassName: "fab facebook-f",
     },
   ],
   // Use for navigation
-  navTitle: "GB Template",
+  navTitle: "Kriss Javascript Man",
   navLinks: [
     { label: "About", url: "/about" },
     { label: "Contact", url: "/contact" },
   ],
   // Use for footer
   socialLinks: [
-    { 
-      label: "Codepen", 
-      url: "https://codepen.io/completejavascript/", 
-      iconClassName: "fab codepen" 
+    {
+      label: "FreeCodeCamp",
+      url: "", // Ignore
+      iconClassName: "fab free-code-camp",
     },
-    { 
-      label: "FreeCodeCamp", 
-      url: "", // Ignore 
-      iconClassName: "fab free-code-camp"
-    },
-    { 
+    {
       label: "GitHub",
-      url: "https://github.com/completejavascript",
-      iconClassName: "fab github"
+      url: "https://github.com/krisnawat",
+      iconClassName: "fab github",
     },
-    { 
-      label: "Facebook", 
-      url: "https://www.facebook.com/completejavascript/", 
-      iconClassName: "fab facebook-f"
-    },
-    { 
-      label: "Linkedin", 
-      url: "https://www.linkedin.com/in/completejavascript/", 
-      iconClassName: "fab linkedin-in"
+    {
+      label: "Facebook",
+      url: "https://www.facebook.com/reactninja/",
+      iconClassName: "fab facebook-f",
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/CmpltJavaScript",
-      iconClassName: "fab twitter"
+      url: "https://twitter.com/jstutplus",
+      iconClassName: "fab twitter",
     },
     {
       label: "RSS",
       url: "https://gb-template.netlify.com/rss.xml",
-      iconClassName: "fas rss"
+      iconClassName: "fas rss",
     },
   ],
   footerLinks: [
@@ -158,10 +127,11 @@ const config = {
     { label: "Privacy Policy", url: "/privacy" },
     { label: "Sitemap", url: "https://gb-template.netlify.com/sitemap.xml" },
   ],
-  copyright: "Copyright © 2019-2020 Lam Pham. Unless otherwise noted, all code MIT license.",
+  copyright:
+    "Copyright © 2019-2020 Chiangmai. Unless otherwise noted, all code MIT license.",
   // Use for manifest
   themeColor: "#2196F3", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#FFF" // Used for setting manifest background color.
+  backgroundColor: "#FFF", // Used for setting manifest background color.
 };
 
 // Validate

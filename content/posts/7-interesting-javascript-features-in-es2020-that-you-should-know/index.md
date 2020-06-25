@@ -1,6 +1,6 @@
 ---
 title: 7 Interesting JavaScript Features in ES2020 That You Should Know
-date: 2020-06-18T02:09:51.597Z
+date: 2020-06-25T02:15:01.782Z
 description: The world of web development moves fast, particularly in the
   JavaScript ecosystem. New features, frameworks, and libraries are continually
   emerging, and the minute you stop learning is the minute your skillset starts

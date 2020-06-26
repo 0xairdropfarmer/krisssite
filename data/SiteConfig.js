@@ -4,13 +4,13 @@ const config = {
   siteTitleShort: "Kriss.io", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Kriss - All about Javascript", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://gb-template.netlify.com", // Domain of your website without pathPrefix.
+  siteUrl: "https://kriss.io", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Javascript,React,React Native,Angular,Vuejs,Nodejs,Deno", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteLang: "en",
-  siteFBAppID: "399626517562189", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-96543695-7", // GA tracking ID.
+  siteFBAppID: "2198345126924491", // FB Application ID for using app insights
+  googleAnalyticsID: "UA-137554402-1", // GA tracking ID.
   postDefaultCategoryID: "", // Default category for posts.
   // Common for tag, category pages and widget
   numberLatestPost: 8,
@@ -125,7 +125,7 @@ const config = {
     { label: "Contact", url: "/contact" },
     { label: "Terms of Use", url: "/terms" },
     { label: "Privacy Policy", url: "/privacy" },
-    { label: "Sitemap", url: "https://gb-template.netlify.com/sitemap.xml" },
+    { label: "Sitemap", url: "https://kriss.io/sitemap.xml" },
   ],
   copyright:
     "Copyright © 2019-2020 Chiangmai. Unless otherwise noted, all code MIT license.",

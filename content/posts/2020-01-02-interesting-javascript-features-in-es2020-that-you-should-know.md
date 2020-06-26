@@ -8,7 +8,7 @@ categories:
   - javascript
   - es2020
 date: 2020-01-1T02:15:01.782Z
-slug: interesting-javascript-features-in-es2020-that-you-should-know
+slug: 7-interesting-javascript-features-in-es2020-that-you-should-know
 description: The world of web development moves fast, particularly in the
   JavaScript ecosystem. New features, frameworks, and libraries are continually
   emerging, and the minute you stop learning is the minute your skillset starts

@@ -53,7 +53,7 @@ const config = {
   // Use for Google custom search
   searchWidgetTitle: "Looking for?",
   searchWidgetPlaceHolder: "Enter keyword",
-  searchEngineID: "008548374781244864787:9ybvtnkbt7o",
+  searchEngineID: "005328897267550362033:gui3_qqia8k",
   hasSearch: true,
   // Use for links widget
   sidebarSticky: true,

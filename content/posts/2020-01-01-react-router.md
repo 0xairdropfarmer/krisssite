@@ -1,7 +1,7 @@
 ---
 keywords: react router
 slug: react-router
-date: 2020-06-11T14:54:10.962Z
+date: 2020-01-02T14:54:10.962Z
 cover: ../images/placeholder-660x400-344359.png
 title: How to use the useParams hook in React router
 tags:

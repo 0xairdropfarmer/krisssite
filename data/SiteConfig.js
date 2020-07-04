@@ -23,7 +23,7 @@ const config = {
   postOnDate: "Posted on",
   // Use for comment
   lazyLoadComments: true,
-  disqusShortname: "gb-template", // Disqus shortname.
+  disqusShortname: "krissio", // Disqus shortname.
   btnLoadComments: "Load comments",
   // Use for home page
   numberLoadmore: 6,
@@ -60,7 +60,7 @@ const config = {
 
   // Use for user info
   userName: "Krissanawat", // Username to display in the author segment.
-  userEmail: "krissanawat@hey.com", // Email used for RSS feed"s author segment
+  userEmail: "me@kriss.io", // Email used for RSS feed"s author segment
   userTwitter: "jstutplus", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Chiangmai, Thailand", // User location to display in the author segment.
   userAvatar:
@@ -71,7 +71,7 @@ const config = {
   userLinks: [
     {
       label: "Email",
-      url: "mailto:krissanawat@hey.com",
+      url: "mailto:me@kriss.io",
       iconClassName: "far envelope",
     },
     {
@@ -115,7 +115,7 @@ const config = {
     },
     {
       label: "RSS",
-      url: "https://gb-template.netlify.com/rss.xml",
+      url: "https://kriss.io/rss.xml",
       iconClassName: "fas rss",
     },
   ],

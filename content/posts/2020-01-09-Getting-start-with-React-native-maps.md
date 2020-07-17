@@ -13,9 +13,12 @@ template: "post"
 featuredImage: ""
 ---
 
-this tutorial we learn how to use maps on react native . maps is fundamental thing that we need to know this package your can start with install react-native-maps package with yarn or npm is support both Google and Apple maps
+In this tutorial, we will learn how to implement Map in the React Native apps. Maps are used for various purposes in an application. We can use maps as a location tracker, traffic congestion detection, traffic simulation, and many more. Here, we are going to make use of the [react-native-maps package](https://github.com/react-native-community/react-native-maps) in order to implement Map View in our react native application. This package is maintained by the [react native community](https://github.com/react-native-community). The package supports both Android and iOS platforms. We are going to use the components and module from this package to display a map and a marker in this tutorial.
 
-this package maintain by [react native community](https://github.com/react-native-community)
+So, let’s get started.
+
+## Installing the React Native Maps Package
+First, we need to install the package into our react native project. For that, we need are going to use yarn package manager. In order to install the package, we need to run the following command in our project folder:
 
 ```jsx
 yarn add react-native-maps
@@ -25,7 +28,7 @@ yarn add react-native-maps
 
 ### **ios**
 
-Using CocoaPods (React Native 0.60 and higher)
+For iOS setup, we need to use CocoaPods (React Native 0.60 and higher). And then, run the following commands in our project folder:
 
 ```jsx
 cd ios
@@ -158,9 +161,8 @@ import com.airbnb.android.react.maps.MapsPackage;
 
 That's it, you made it! 👍
 
-### Example 1
-
-just start with basic example with full screen maps by set device width and height
+### Using React Native Maps Package
+Here, we are going to start with basic example to display the map in full screen. For that, we need to import MapView component from the react-native-maps package. In order to set the MapView component to the full width and height of the device, we are also going to make use of Dimensions module. Then, we are going to integrate the MapView component with simple styles in the render() function of our component. The overall code is provided in the code snippet below:
 
 ```jsx
 import React from "react";
@@ -191,13 +193,12 @@ const styles = StyleSheet.create({
 });
 ```
 
-your will saw full screen map in result
+As a result, we will get following result in our emulator screen:
 
 ![1.png](../images/react-native-maps/1.png)
 
-### Example 2 : add initial region
-
-we try add initial region to maps
+### Adding Initial Region
+The MapView component also enables us to add the region using the initialRegion prop. We can configure the map coordinates like longitude and latitude in the initialRegion prop. This allows us to display particular location in the Map. The MapView configuration using initialRegion is provided below:
 
 ```jsx
 <MapView
@@ -211,13 +212,12 @@ we try add initial region to maps
 />
 ```
 
-output
+Hence, we will get the following result in the map with the above coordinates:
 
 ![2.png](../images/react-native-maps/2.png)
 
-### Example 3:Rendering a list of markers on a map
-
-for adding marker your can do like this first setup marker position
+### Rendering Markers on a map
+Here, we are going to add the location marker on the map. It enables us to point the exact location on the map. First, we are going to set the marker state with coordinate values as shown in the code snippet below:
 
 ```jsx
 state = {
@@ -230,13 +230,12 @@ state = {
 };
 ```
 
-then import Marker component
-
+Then, we need to import the Marker component from the react-native-maps package as shown in the code snippet below:
 ```jsx
 import MapView, { PROVIDER_GOOGLE, Marker } from "react-native-maps";
 ```
 
-wrap by MapView component
+Now, we can integrate the Marker component inside the MapView component as shown in the code snippet below:
 
 ```jsx
 <MapView
@@ -257,13 +256,14 @@ wrap by MapView component
 </MapView>
 ```
 
-Output:
+Here, we move configured the Marker component with coordinate prop which is set to the marker state. Then, we have provided the title and description as well.
+
+As a result, we get the red location marker on the screen with the title as test and description as test marker as shown in the emulator screenshot below:
 
 ![3.png](../images/react-native-maps/3.png)
 
-### Example 4 : using Google Maps
-
-for iOS initial maps was set to Apple maps if your want to swtich to Google maps just specify map provider as example
+### Using Google Maps
+This is especially for the iOS device in which the maps are set to Apple maps. We can switch to Google maps easily by using PROVIDER_GOOGLE module from the maps package. Then, we can include this to MapView component in the provider prop as shown in the code snippet below:
 
 ```jsx
 import MapView, { PROVIDER_GOOGLE } from "react-native-maps";
@@ -289,13 +289,14 @@ export default class App extends React.Component {
 }
 ```
 
-Output
+Hence, we get the Google map as output as shown in the screenshot below:
 
 ![4.png](../images/react-native-maps/4.png)
 
 ### Conclusion
 
-this tutorial we learn how to setup and using React native maps for next step we can add many event and using with other component
+In this tutorial, we learned how to implement the map view in the react native project. We were able to easily implement map view using components and modules from the react-native-maps package. While setting up Map to the full screen was simple, it did not take much effort the add the map coordinates as well. Map Markers are also an important aspect when it comes to dealing with map. Here, we were able to do it easily using the Marker component. Now, the next step can be to add more functionalities using other components and packages out there. We will surely go through them. So, stay tuned!
+
 
 ### Credit
 

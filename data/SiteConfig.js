@@ -1,12 +1,12 @@
 const config = {
   // Site info
-  siteTitle: "Kriss - All about Javascript", // Site title.
+  siteTitle: "Kriss - All about React Native", // Site title.
   siteTitleShort: "Kriss.io", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Kriss - All about Javascript", // Alternative site title for SEO.
+  siteTitleAlt: "Kriss - All about React Nativ", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://kriss.io", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Javascript,React,React Native,Angular,Vuejs,Nodejs,Deno", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "React Native Developer Blog", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteLang: "en",
   siteFBAppID: "2198345126924491", // FB Application ID for using app insights
@@ -66,7 +66,7 @@ const config = {
   userAvatar:
     "https://en.gravatar.com/userimage/155811895/09834b18c86688d77a606ab08b38cec3.png?s=300", // User avatar to display in the author segment.
   userDescription:
-    "Software Engineer, Web Developer, JavaScript Lover & Blogger @jstutplus.", // User description to display in the author segment.
+    "React Native Develiper, JavaScript Lover & Blogger @jstutplus.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
@@ -86,7 +86,7 @@ const config = {
     },
   ],
   // Use for navigation
-  navTitle: "Kriss Javascript Man",
+  navTitle: "Kriss",
   navLinks: [
     { label: "About", url: "/about" },
     { label: "Contact", url: "/contact" },

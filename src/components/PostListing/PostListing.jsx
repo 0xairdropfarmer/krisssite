@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Article from "./Article";
-
+import PostAaffiliateWidget from './PostAffiliateWidget'
 class PostListing extends Component {
   state = {
     maxPosts: this.props.hasLoadmore && this.props.postsPerPage
@@ -26,7 +26,11 @@ class PostListing extends Component {
       <>
         <div className="post-listing-container">
           {postList.map((post, index) => {
+            if (index == 3) return (<PostAaffiliateWidget href={'https://click.linksynergy.com/link?id=cDElGBdnNrA&offerid=507388.959700&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fthe-complete-react-native-and-redux-course%2F'} anchor={'Understand React Native with Hooks, Context, and React Navigation.'} />)
+
             if (index < maxPosts) return (
+
+
               <Article key={post.title} post={post} hasThumbnail={hasThumbnail} />
             )
 
@@ -34,7 +38,7 @@ class PostListing extends Component {
           })}
         </div>
         {hasLoadmore && maxPosts < postList.length && (
-          <div 
+          <div
             className="loadmore-wrapper margin-top padding-top-half text-center"
           >
             <button className="btn-primary" onClick={this.handleLoadmore}>

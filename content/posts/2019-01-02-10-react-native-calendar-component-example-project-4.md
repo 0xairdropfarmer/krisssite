@@ -1,20 +1,26 @@
 ---
-template: "post"
-title: "10 React Native Calendar Component ,Example ,Project"
-description: "this is a description"
-date: "2019-01-02T08:00:00Z"
-slug: "10-react-native-calendar-component-example-project"
+template: post
+title: 10 React Native Calendar Component ,Example ,Project
+date: 2019-01-02T08:00:00Z
+description: In this post, we are going through 10 React Native Calendar
+  Components that are going to help in the implementation of calendar view in
+  any React Native application. The calendar components are mostly utilized in
+  the apps that have some functions related to timekeeping, task saving,
+  note-making, reminder setups, etc. Thus, the components that we are going
+  through in this article will not only cover the basic UI of the Calendar
+  component but also it\'s functionalities in different application concepts.
+slug: 10-react-native-calendar-component-example-project
 categories:
   - react native
 tags:
   - best list
 ---
+In this post, we are going through 10 React Native Calendar Components that are going to help in the implementation of calendar view in any React Native application. The calendar components are mostly utilized in the apps that have some functions related to timekeeping, task saving, note-making, reminder setups, etc. Thus, the components that we are going through in this article will not only cover the basic UI of the Calendar component but also it\'s functionalities in different application concepts.
 
-<!-- wp:group -->In this post, we are going through 10 React Native Calendar Components that are going to help in the implementation of calendar view in any React Native application. The calendar components are mostly utilized in the apps that have some functions related to timekeeping, task saving, note-making, reminder setups, etc. Thus, the components that we are going through in this article will not only cover the basic UI of the Calendar component but also it\'s functionalities in different application concepts.
 <hr/>
 The React Native developers will find it intriguing to know about these components are they are the highlight of most utilized calendar components out there in Git repos. Examples and projects implementing these components will help us establish a deeper learning curve in their use-cases. In addition to Calendar components, this article has included timetables, GitHub inspired Heat maps, time pickers, etc.
 
-It is natural for a React Native Developer to have a curiosity towards different React Native components whether it be an in-built or third party. Those of us who are curious about the Calendar components, let\'s dive into details.
+It is natural for a React Native Developer to have a curiosity towards different React Native components whether it be an in-built or third party. Those of us who are curious about the Calendar components, let's dive into details.
 
 ### [1. React Native date & time picker component for iOS and Android](https://kriss.io/react-native-date-time-picker-component-for-ios-and-android/)
 
@@ -56,7 +62,7 @@ This react native calendar component enables us to display the Calendar interfac
 
 ![](https://res.cloudinary.com/krissanawat-kaewsanmuang/image/upload/v1593104934/10%20React%20Native%20Calendar%20Component/7.png)
 
-This package delivers the iOS-like calendar interface specifying the date along with the timeline across a day. Hence, it also allows the setting of events in the timeline. This package was implemented using the VirtualizedList. This package incorporates the work of [https://github.com/duyluonglc/](https://github.com/duyluonglc/). He was responsible for adding new features and improving the overall functioning of the plugin.
+This package delivers the iOS-like calendar interface specifying the date along with the timeline across a day. Hence, it also allows the setting of events in the timeline. This package was implemented using the VirtualizedList. This package incorporates the work of <https://github.com/duyluonglc/>. He was responsible for adding new features and improving the overall functioning of the plugin.
 
 ## [8.React native heatmap calendar component](https://kriss.io/react-native-heatmap-calendar-component/)
 
@@ -80,4 +86,4 @@ The noteworthy feature of this package is that the Picker component is highly cu
 
 Hope, this article helps you get the quick summary of popular React Native calendar components out there to use in your React Native project. The Calendar components are not only limited to modal Calendar interface to pick dates but also scrollable, swippable, draggable, customizable components. Some of the components like Heat map and week view are particularly unique which will provide a new taste to any react native app. Make sure to go through every package before selecting the best one for your project. Each package has its own unique and problem-solving features. So, if you are in need of the simple, highly customizable, dynamic, and unique Calendar components, make sure to remember this article.
 
-In order to get back to this article easily, don\'t forget to bookmark and spread the word to the internet by sharing through Twitter, Facebook, etc.
+In order to get back to this article easily, don't forget to bookmark and spread the word to the internet by sharing through Twitter, Facebook, etc.
